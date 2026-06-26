@@ -14,7 +14,6 @@ A clean, modern, and responsive portfolio website template for developers, desig
 * Easy to customize
 * Environment variable support
 
----
 
 ## Built With
 
@@ -24,7 +23,6 @@ A clean, modern, and responsive portfolio website template for developers, desig
 * PHP
 * PHPMailer
 
----
 
 ## Getting Started
 
@@ -56,7 +54,6 @@ SMTP_PASS=app-password
 CONTACT_EMAIL=receiver_email
 ```
 
----
 
 ## License
 
@@ -79,7 +76,6 @@ This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**
 
 While GPL v3 permits commercial use, **I request that this template not be sold, relicensed, or redistributed as a commercial product or paid template.** If you wish to use this project commercially beyond the GPL terms, please contact the me for permission.
 
----
 
 ## Contributing
 
@@ -87,6 +83,5 @@ Pull requests, suggestions, and improvements are always welcome.
 
 If you find a bug or have an idea for a feature, feel free to open an issue.
 
----
 
 If you use this template, consider giving the repository a ⭐. It helps others discover the project.
