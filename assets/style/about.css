@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+.section-about,
+.section-exp {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-about .top {
+  flex: 1;
+}
+.section-about .top .subtitle {
+  margin-bottom: 16px;
+  color: #030712;
+  font-size: 22px;
+  font-weight: 500;
+}
+.section-about .bottom {
+  flex: 1;
+  display: flex;
+}
+.section-about .bottom .heading {
+  color: #030712;
+  font-weight: 700;
+}
+.section-about .bottom .heading span {
+  color: #B6BCC6;
+}
+.section-about .bottom .desc {
+  color: #374151;
+  font-size: 22px;
+  font-weight: 400;
+}
+.section-about .bottom .contact {
+  padding: 24px 48px;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  border: 1px solid #030712;
+  background-color: #030712;
+  border-radius: 1000px;
+  transition: all 0.2s ease;
+}
+.section-about .bottom .contact svg {
+  width: 28px;
+  height: 28px;
+}
+.section-about .bottom .contact svg path {
+  stroke: #ffffff;
+  transition: all 0.2s ease;
+}
+.section-about .bottom .contact:hover {
+  color: #030712;
+  background-color: #ffffff;
+  gap: 16px;
+}
+.section-about .bottom .contact:hover svg path {
+  stroke: #030712;
+}
+.section-about .banner-me img.me {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.section-exp .exp-title {
+  font-weight: 600;
+  color: #030712;
+}
+.section-exp .exps {
+  list-style-type: none;
+}
+.section-exp .exps .exp:first-child {
+  border-top: 1px solid #B6BCC6;
+}
+.section-exp .exps .exp {
+  border-bottom: 1px solid #B6BCC6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.section-exp .exps .exp .left .desg {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #030712;
+}
+.section-exp .exps .exp .left .company {
+  font-size: 18px;
+  font-weight: 400;
+  color: #374151;
+}
+.section-exp .exps .exp .timeline {
+  font-size: 18px;
+  font-weight: 400;
+  color: #374151;
+}
+
+@media only screen and (min-width: 1025px) {
+  .section-about .bottom {
+    gap: 76px;
+  }
+  .section-about .bottom .heading {
+    font-size: 104px;
+    width: 100%;
+  }
+  .section-about .bottom .right {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .section-about .bottom .right .contact {
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: auto;
+  }
+  .section-about .banner-me {
+    padding-top: 56px;
+  }
+  .section-exp {
+    gap: 48px;
+  }
+  .section-exp .exp-title {
+    font-size: 40px;
+  }
+  .section-exp .exps {
+    list-style-type: none;
+  }
+  .section-exp .exps .exp {
+    padding: 40px 0px 24px 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-about .bottom {
+    gap: 32px;
+    flex-direction: column;
+  }
+  .section-about .bottom .heading {
+    font-size: 104px;
+  }
+  .section-about .bottom .right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .section-about .bottom .right .contact {
+    width: -moz-max-content;
+    width: max-content;
+    margin-left: auto;
+  }
+  .section-about .banner-me {
+    padding-top: 32px;
+  }
+  .section-exp {
+    gap: 48px;
+  }
+  .section-exp .exp-title {
+    font-size: 40px;
+  }
+  .section-exp .exps {
+    list-style-type: none;
+  }
+  .section-exp .exps .exp {
+    padding: 40px 0px 24px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-about .bottom {
+    gap: 32px;
+    flex-direction: column;
+  }
+  .section-about .bottom .heading {
+    font-size: 60px;
+  }
+  .section-about .bottom .right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .section-about .bottom .right .contact {
+    width: 100%;
+    justify-content: center;
+  }
+  .section-about .banner-me {
+    padding-top: 32px;
+  }
+  .section-exp {
+    gap: 40px;
+  }
+  .section-exp .exp-title {
+    font-size: 28px;
+  }
+  .section-exp .exps {
+    list-style-type: none;
+  }
+  .section-exp .exps .exp {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 0px 24px 0px;
+  }
+}/*# sourceMappingURL=about.css.map */

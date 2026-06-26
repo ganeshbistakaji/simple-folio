@@ -1,0 +1,127 @@
+@use "./var" as v;
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .heading {
+    color: v.$text_primary;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+
+    span {
+      color: v.$text_secondary;
+    }
+  }
+
+  .tagline {
+    font-size: 22px;
+    font-weight: 400;
+    color: v.$text_primary;
+    text-align: center;
+  }
+
+  form.contact-form {
+    width: 100%;
+    max-width: 656px;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      color: v.$text_primary;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    input:not(.contact-submit),
+    textarea {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid v.$text_secondary;
+      outline: none;
+      padding: 0px 16px 16px 16px;
+      font-size: 16px;
+      color: v.$text_primary;
+      margin-top: 24px;
+
+      &::placeholder {
+        color: v.$text_secondary;
+      }
+    }
+
+    input.contact-submit {
+      width: max-content;
+      padding: 24px 48px;
+      border-radius: 10000px;
+      background-color: v.$text_primary;
+      color: v.$text_white_primary;
+      border: 1px solid v.$text_primary;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: v.$text_primary;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .section-contact {
+    .heading {
+      font-size: 104px;
+    }
+
+    form.contact-form {
+      padding-top: 72px;
+
+      input:not(.contact-submit),
+      textarea {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-contact {
+    .heading {
+      font-size: 104px;
+    }
+
+    form.contact-form {
+      padding-top: 56px;
+
+      input:not(.contact-submit),
+      textarea {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-contact {
+    .heading {
+      font-size: 60px;
+    }
+
+    form.contact-form {
+      padding-top: 40px;
+
+      input:not(.contact-submit),
+      textarea {
+        margin-bottom: 32px;
+      }
+
+      input.contact-submit {
+        width: 100% !important;
+      }
+    }
+  }
+}
