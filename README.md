@@ -1,4 +1,4 @@
-# 🚀 Modern Portfolio Template
+# Modern Portfolio Template
 
 A clean, modern, and responsive portfolio website template for developers, designers, and creatives. Built with performance, accessibility, and simplicity in mind, making it easy to showcase your projects, skills, experience, and contact information.
 
