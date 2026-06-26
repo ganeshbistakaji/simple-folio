@@ -1,3 +1,5 @@
+<img width="512" height="512" alt="Simple-Folio" src="https://github.com/user-attachments/assets/8a141cd9-4eec-4c3f-bc38-531d624248d7" />
+
 # Simple-Folio Template
 
 A clean, modern, and responsive portfolio website template for developers, designers, and creatives. Built with performance, and simplicity in mind, making it easy to showcase your projects, skills, experience, and contact information.
