@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="Simple-Folio" src="https://github.com/user-attachments/assets/8a141cd9-4eec-4c3f-bc38-531d624248d7" />
+<img width="512" height="512" alt="Simple-Folio" src="https://github.com/user-attachments/assets/d802554d-82f1-41d7-8667-c8e65f3a46cd" />
 
 # Simple-Folio Template
 
